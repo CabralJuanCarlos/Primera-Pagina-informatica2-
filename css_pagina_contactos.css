@@ -1,0 +1,265 @@
+body{
+	background:#740403;
+}
+img{
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+}
+.nav{
+	background: #615F5C ;
+	position: absolute;
+	z-index: 1;
+	top: 423px;
+	width: 100%;
+	height: 30px;
+}
+
+.nav_li{
+	
+	font-size: 20px;
+	border-left: 1px solid white; 
+	height: 30px;
+	display: inline-block;
+	width: 110px;
+	text-align: center;
+}
+.nav_li a{
+	text-decoration: none;
+	color: grey;
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav_li_enlace {
+	display: inline-block;
+	height: 30px;
+	font-size: 20px;
+	border-left: 1px solid white;
+	width:40px; 
+	margin-right: 85px;
+	padding-left: 25px;
+}
+.nav_li_enlace a{
+	
+	text-decoration: none;
+	color: grey;
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav_li_enlace a:hover{
+	color:white;
+}
+.nav_li a:hover{
+	color: white;
+}
+
+.container_general{
+	position: absolute;
+	top: 500px;
+
+}
+.container1{
+	font-family: Arial, Helvetica, sans-serif;
+    height: 32px;
+}
+
+.icono{
+	width: 40px;
+	height: 40px;
+	margin-left: 19px;
+}
+.container_titulo{
+	margin-left: 65px;
+	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #C79B80;
+}
+.container_general_2{
+	position: absolute;
+	width: 300px;
+	height: 427px;
+	top: 453px;
+	left: 70px;
+	z-index: 120;
+	background: #450404;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.container2_img{
+	width: 40px;
+	height: 40px;
+	margin-left: 60px ;
+	margin-top: 40px;
+}
+.container2_h5{
+	color: #C79B80;
+	font-size: 27px;
+	text-align: center;
+	margin-top: 46px;
+}
+.container2_p2{
+	color: #C79B80;
+	margin:auto;
+	width: 200px;
+	background:#740403;
+	text-align: center;
+	margin-top: 30px;
+}
+.container2_p3{
+	color: #C79B80;
+	 line-height : 30px;
+	text-align: center;
+	margin-top: 20px;
+	padding-left: 11px;
+	padding-right: 11px;
+}
+.container_general_3{
+	position: absolute;
+	top: 910px;
+	height: 427px;
+	left: 70px;
+	z-index: 120;
+	background: #450404;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 300px;
+
+}
+.container3_img{
+	width: 40px;
+	height: 40px;
+	margin-left: 60px ;
+	margin-top: 32px;
+}
+.container3_h5{
+	color: #C79B80;
+	font-size: 27px;
+	text-align: center;
+	margin-top: 39px;
+}
+.container3_p2{
+	color: #C79B80;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.container3_p3{
+	color: #C79B80;
+	line-height: 30px;
+	padding-left: 25px;
+	padding-right: 25px; 
+	text-align: justify;
+}
+.SEGUNDAPARTE{
+	color: #C79B80;
+	line-height: 30px;
+	padding-left: 25px;
+	padding-right: 25px; 
+	text-align: justify;
+}
+.formulario{
+	position: absolute;
+	z-index: 100;
+	width: 800px;
+	height: 1100px;
+	top: 500px;
+	left: 440px;
+}
+h4{
+	font-size: 40px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow:7px 2px 7px #fff;
+	margin-bottom: 10px;
+}
+.formulario_p{
+	color: pink;
+	font-size: 17px;
+}
+label{
+	color: white;
+	font-size: 17px;
+	margin-right: 20px;
+	
+}
+.formulario_p_title{
+	font-size: 22px;
+	color: white;
+}
+.inputs{
+	width: 600px;
+	height: 900px;
+}
+.primer{
+	display: inline-block;
+	font-size: 17px;
+	height:400px;
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 10px;
+	width: 400px;
+}
+.segundo{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 170px;
+	position: absolute;
+	width: 400px;
+
+}
+
+.entradas{
+	margin-top: 23px;
+	width: 300px;
+	height: 25px;
+	
+}
+.label{
+	color: white;
+	margin-top: 23px;
+	height: 25px;
+}
+.TEXTAREA{
+	margin-top: 23px;
+	width: 390px;
+	height: 275px;
+	resize: none;
+}
+.boton{
+	height: 30px;
+	width: 60px;
+	border: 2px solid white;
+	background: red;
+	margin-left: 140px;
+}
+
+.boton:hover{
+	height: 25px;
+	width: 55px;
+}
+.footer{
+	position: absolute;
+	z-index: 125;
+	background:black;
+	display: inline-block;
+	width: 100%;
+	height: 110px;
+	border-top: 1px solid white;
+	top:1500px; 
+}
+.enlaces_footer{
+	background: black;
+	margin-left: 19px;
+	margin-top: 20px;
+}
+.footer a{
+	border-left: 1px solid grey;
+	background: black;
+	text-decoration: none;
+	color:grey;
+	padding-left: 10px;
+ 
+}
+.footer a:hover{
+	color: white;
+}
